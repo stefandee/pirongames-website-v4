@@ -1,0 +1,489 @@
+#featured_piron dl
+{
+	float: left;
+	margin-right: 10px;
+	width: 320px;
+}
+#featured_piron #last1
+{
+	margin-right: 0;
+}
+#featured_piron dt
+{
+	color: #fffcda;
+	font-size: 24px;
+	margin: 0;
+}
+#featured_piron dt img
+{
+	border: 10px solid #000;
+	display: block;
+}
+#featured_piron dt a
+{
+	color: #fffcda;
+	text-transform: capitalize;
+}
+#featured_piron dd
+{
+	background: rgba(0,0,0,0.66);
+	background: url(../img/bkg_alpha066.png) repeat;
+	color: #C6C6C6;
+	font-size: .85em;
+	font-style: italic;
+	height: 48px;
+	line-height: 1.2em;
+	position: relative;
+	top: 5px;
+	width: 320px;
+}
+#featured_piron dd a
+{
+	color: #fffcda;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#featured_others dl
+{
+	float: left;
+	margin-right: 15px;
+	width: 184px;
+}
+#featured_others #last2
+{
+	margin-right: 0;
+}
+#featured_others dt
+{
+	color: #fffcda;
+	font-size: 14px;
+	margin: 0;
+}
+#featured_others dt img
+{
+	border: 2px solid #000;
+	display: block;
+}
+#featured_others dt a
+{
+	color: #993909;
+	text-transform: capitalize;
+}
+#featured_others dd
+{
+	background: rgba(0,0,0,0.66);
+	background: url(../img/bkg_alpha066.png) repeat;
+	color: #C6C6C6;
+	font-size: .75em;
+	font-style: italic;
+	height: 40px;
+	line-height: 1.2em;
+	position: relative;
+	top: 3px;
+	width: 184px;
+}
+#featured_others dd.dd_shared
+{
+	height: 54px;
+}
+#featured_others dd a
+{
+	color: #fffcda;
+	text-transform: capitalize;
+}
+.content #browsegenre ul
+{
+	margin: 0;
+	padding: 0;
+}
+.content #browsegenre ul li
+{
+	display: inline;
+	padding-left: 0;
+}
+#browsegenre span.genre0
+{
+	font-size: 14px;
+	line-height: 14px;
+}
+#browsegenre span.genre1
+{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+}
+#browsegenre span.genre2
+{
+	font-size: 18px;
+	line-height: 18px;
+}
+#browsegenre span.genre3
+{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+}
+#browsegenre span.genre4
+{
+	font-size: 22px;
+	line-height: 22px;
+}
+#browsegenre span.genre5
+{
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 24px;
+}
+#browsegenre a
+{
+	background: #FF2523;
+	color: #fffcda;
+	line-height: 10px;
+	margin-right: 5px;
+	padding-right: 2px;
+	text-align: left;
+	text-decoration: none;
+}
+#browsegenre a:hover
+{
+	background: #000;
+	color: #fffcda;
+	text-decoration: none;
+}
+#browsegenre a:visited
+{
+	color: #fffcda;
+	text-decoration: none;
+}
+.content #browsetags ul
+{
+	margin: 0;
+	padding: 0;
+}
+.content #browsetags ul li
+{
+	display: inline;
+	padding-left: 0;
+}
+#browsetags span.tag0
+{
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: capitalize;
+}
+#browsetags span.tag1
+{
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 14px;
+	text-transform: capitalize;
+}
+#browsetags span.tag2
+{
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: capitalize;
+}
+#browsetags span.tag3
+{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	text-transform: capitalize;
+}
+#browsetags span.tag4
+{
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: capitalize;
+}
+#browsetags span.tag5
+{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	text-transform: capitalize;
+}
+#browsetags a
+{
+	background: #FF2523;
+	color: #fffcda;
+	line-height: 8px;
+	margin-right: 5px;
+	padding-right: 2px;
+	text-align: left;
+	text-decoration: none;
+}
+#browsetags a:hover
+{
+	background: #000;
+	color: #fffcda;
+	text-decoration: none;
+}
+#browsetags a:visited
+{
+	color: #fffcda;
+	text-decoration: none;
+}
+#playgame #playgame_header h2
+{
+	float: left;
+	font-size: 18px;
+	min-height: 60px;
+	padding-top: 0;
+}
+#playgame h3
+{
+	background: rgba(0,0,0,0.33);
+	background: url(../img/bkg_alpha033.png) repeat;
+	border: 0;
+	color: #fffcda;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: -.03em;
+	margin: 0 0 5px 0;
+	padding: 0;
+	width: 200px;
+}
+#playgame #playgame_header small
+{
+	font-size: 14px;
+}
+#playgame #playgame_header h2 span
+{
+	color: #fffcda;
+	font-weight: bold;
+}
+#playgame #playgame_header #ad_container_top
+{
+	float: right;
+	margin-top: 1.07em;
+	padding-top: 4px;
+}
+#playgame #flashobject_header
+{
+	background: rgba(0,0,0,0.33);
+	background: url(../img/bkg_alpha033.png) repeat;
+	font-size: 14px;
+	height: 24px;
+	text-align: left;
+}
+#playgame #flashobject_header ul
+{
+	margin-left: 5px;
+}
+#playgame #flashobject_header li
+{
+	display: inline;
+	padding-left: 0;
+}
+#playgame #flashobject_header .neutral
+{
+	color: #C6C6C6;
+}
+#playgame #flashobject_header .twitter
+{
+	background: url(../img/share/twitter.png) no-repeat;
+	padding-left: 17px;
+}
+#playgame #flashobject_header .facebook
+{
+	background: url(../img/share/facebook.png) no-repeat;
+	padding-left: 17px;
+}
+#playgame #flashobject_header .digg
+{
+	background: url(../img/share/digg.png) no-repeat;
+	padding-left: 17px;
+}
+#playgame #flashobject_header .stumble
+{
+	background: url(../img/share/stumble.png) no-repeat;
+	padding-left: 17px;
+}
+#playgame #flashobject_header .reddit
+{
+	background: url(../img/share/reddit.png) no-repeat;
+	padding-left: 17px;
+}
+#playgame #flashobject_header li a
+{
+	background: none;
+	color: #fffcda;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 12px;
+	text-transform: capitalize;
+}
+#playgame #flashobject_header li a:hover
+{
+	text-decoration: underline;
+}
+#playgame #flashobject
+{
+	background: url(../img/diagonal_stripes.png) repeat;
+	text-align: center;
+}
+#playgame #gameinfo
+{
+	background: none;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	width: 390px;
+}
+#playgame #gameinfo .gamegenres
+{
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+#playgame #gameinfo .gamegenres li
+{
+	display: inline;
+	padding-left: 0;
+}
+#playgame #gameinfo .gametags
+{
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+#playgame #gameinfo .gametags li
+{
+	display: inline;
+	padding-left: 0;
+}
+
+#playgame #gameinfo .infobox
+{
+	background: rgba(0,0,0,0.33);
+	background: url(../img/bkg_alpha033.png) repeat;
+	color: #C6C6C6;
+	font-size: 12px;
+	margin: 0 0 6px 0;
+	padding: 3px 0 3px 3px;
+	width: 600px;
+}
+
+#playgame #gameinfo .fb-comments
+{
+	background: rgba(0,0,0,0.33);
+	background: url(../img/bkg_alpha033.png) repeat;
+	color: #C6C6C6;
+	font-size: 12px;
+	margin: 0 0 6px 0;
+	padding: 3px 0 3px 3px;
+	width: 600px;
+}
+
+#playgame #gameinfo .infobox p
+{
+	font-size: 12px;
+	font-weight: none;
+	margin: 0;
+	padding: 0;
+}
+#playgame #gameinfo .infobox .title
+{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+#playgame #gameinfo .infobox ul
+{
+	margin-bottom: 0;
+}
+#playgame #gameinfo .infobox li
+{
+	background: url("../img/li.png") no-repeat;
+	background-position: 3px 7px;
+	display: block;
+	list-style: none;
+	text-align: left;
+}
+#playgame #gameinfo .infobox a
+{
+	background: none;
+	color: #fffcda;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 12px;
+	text-transform: capitalize;
+}
+#playgame a
+{
+	background: #FF2523;
+	color: #fffcda;
+	font-size: 14px;
+	line-height: 14px;
+	margin-right: 5px;
+	padding-right: 2px;
+	text-align: left;
+	text-decoration: none;
+}
+#playgame a:hover
+{
+	background: #000;
+	color: #fffcda;
+	text-decoration: none;
+}
+#playgame a:visited
+{
+	color: #fffcda;
+	text-decoration: none;
+}
+#pagecontent
+{
+	background: rgba(0,0,0,0.33);
+	background: url(../img/bkg_alpha033.png) repeat;
+	color: #C6C6C6;
+	font-size: 12px;
+	margin: 0 0 6px 0;
+	padding: 3px 0 3px 3px;
+	width: 600px;
+}
+#pagecontent br
+{
+	line-height: normal;
+}
+#pagecontent p
+{
+	font-size: 12px;
+	font-weight: none;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+}
+#pagecontent .title
+{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+#pagecontent ul
+{
+	margin-bottom: 0;
+}
+#pagecontent li
+{
+	background: url("../img/li.png") no-repeat;
+	background-position: 3px 7px;
+	display: block;
+	list-style: none;
+	text-align: left;
+}
+#pagecontent a
+{
+	background: none;
+	color: #fffcda;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 12px;
+}
+.rightblock
+{
+	float: right;
+}

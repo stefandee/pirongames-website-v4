@@ -1,0 +1,281 @@
+1. Scopul postmortem'ului
+  
+  Cel mai adesea o echipa scrie un postmortem pentru a scoate in evidenta 
+  lucrurile bune si lucrurile rele intilnite in timpul procesului de dez
+  voltare a unui produs software. Postmortem'urile au devenit o practica 
+  curenta in industria software, oferind celor care au participat la proiect 
+  o viziune retrospectiva si cel mai adesea completa asupra evenimentelor. 
+  Nu este vorba aici despre a poza in postura vinatorului cu pusca pe umar
+  si leul impuscat la picioare, ci pur si simplu curajul de a recunoaste 
+  greselile si a evidentia lucrurile bune pot insemna extrem de mult in 
+  abordarea unui nou proiect. 
+
+  In alta ordine de idei, un postmortem presupune maturitatea in gindirea
+  participantilor. In definitiv, toata viata te chinui sa eviti murphismele:
+  "ceea ce omul invata din istorie e ca omul nu invata nimic din istorie"...
+
+  Si nu in ultimul rind, un postmortem se poate oferi detalii importante
+  unei persoane care nu a participat la proiect (outsider) de vreme ce se 
+  analizeaza mecanismele (fine) ale procesului de dezvoltare software. Un 
+  veritabil instrument didactic, daca vreti. Pentru ca experienta unora poate 
+  insemna salvarea altora...
+  
+2. Visele...
+
+  Pure Power a fost un proiect al echipei independente Piron, dorindu'se un
+  joc de tactica in timp real (real time tactics) in stilul Mech Commander,
+  cu un engine 2D tile-based. 
+
+  Explorarea unui gen de joc mai putin abordat in industrie a fost unul din
+  punctele sale originale. Un alt punct original a fost universul SF dezvoltat 
+  in jurul acestui joc (in fapt jocul a fost dezvoltat in jurul universului), 
+  prin univers intelegindu'se complexul de idei de baza, istorie, personaje, relatii 
+  si filozofie care definesc un look-and-feel unic. De altfel universul este unul 
+  dintre supravietuitorii acestui proiect. In final, campaniile neliniare au fost
+  un alt punct care s'a incercat sa fie atins, lucru destul de original pentru
+  un joc din generatia sa.
+
+  Proiectul s'a dorit de la inceput comercial in sensul ca nu a pornit ca un
+  experiment ci facut pentru a fi vindut. Desigur, natura procesului de dezvoltare
+  ("in garaj") cit si greselile de organizare au anulat sau atrofiat multe dintre 
+  caracteristicile unui proiect comercial. 
+  
+  Astfel, am incercat intii sa cream un demo jucabil pentru a fi folosit ca moneda 
+  in negocierile cu un eventual publisher, urmind ca in cazul unui posibil contract 
+  jocul sa fie terminat. Demo'ul ar fi trebuit sa contina un engine functional in 
+  procent de 85%, o campanie care sa preceada actiunea din joc si sa creeze un
+  background pentru jucator (sa il "integreze" in univers) precum si o bucata de
+  enciclopedie.
+
+
+3. ...si cruda realitate
+
+  PP'ul a esuat in cele din urma, singurul lucru vizibil fiind o versiune alfa,
+  prea putin pentru a da un insight asupra a ceea ce ar fi putut fi. Cei care au
+  avut rabdarea sa o incerce au putut observa o interfata 50% functionala, un 
+  engine sarac (dar cu posibilitati :) - in procente cam 65%, o enciclopedie lipsa
+  (la momentul release'ului versiunii alfa istoria universului era bine conturata
+  si scrisa, insa am decis neintegrarea ei in versiunea alfa pentru ca ar fi fost
+  un fel de cireasa pe un tort fara frisca), o grafica buna pentru un proiect 
+  dezvoltat in garaj, dar nu suficient de buna pentru un titlu de succes.
+
+  Proiectul a fost inceput in primavara 1998, si la data la care am infiintat grupul 
+  Piron acesta continea cinci oameni: eu (Stefan Dicu ca programator, designer si artwork)
+  Tudor Girba (programator), Adi Pop (programator), Stelian Serban (3D artwork) si
+  Alex Mazilu (artwork).
+
+  In mai putin de 6 luni, look'ul jocului a fost definit, in aceasta perioada fiind 
+  create majoritatea modelelor 3D. In toamna 1998 am pierdut doi oameni, cei cu 
+  artwork'urile, lucru care avea sa influenteze intr'o masura destul de mare evolutia
+  proiectului. In februarie 1999 apare prima versiune a engine'ului, mai mult o schita
+  a ceea ce ar fi trebuit sa fie, dar fara indoiala cu un efect puternic asupra moralului.
+  Tot in februarie 1999 se alatura proiectului Bogdan Hodorog pe partea de artwork.
+
+  Pina in vara 1999 se dezvolta si restul de 3D'urilor (modele 3D de cladiri, in special),
+  iar in vara lui 1999 apare public o versiune functionala a engine'ului (aceasta a fost a
+  doua versiune) precum si primele screenshot'uri dupa un stagiu de o luna in camera cu 
+  gindaci. Tot in vara 1999, Adi Pop paraseste echipa.
+
+  In tot acest timp, dezvoltarea s'a facut in mare parte intr'o retea din camin (toti 
+  membrii fiind studenti). 
+
+  Din vara 1999 pina in primavara 2000 proiectul cunoste o faza de acalmie, fara release'uri
+  publice. In perioada martie-iulie 2000 proiectul cunoaste faza cea mai activa din istoria sa
+  acest lucru concretizindu'se intr'o noua versiune de engine (a treia) si in look'ul grafic
+  curent, iar la sfirsitul acestei perioade prin versiunea alfa amintita mai sus. Toate aceste
+  lucruri au fost facilitate de donatia dl. Dan Medelet, donatie constind intr'un loc pentru
+  desfasurarea activitatii creatoare.
+
+  Vara 2000 este dedicata activitatii de cautare a unui publisher, activitate care avea sa se
+  extinda pina la moartea oficiala a proiectului. Versiunea alfa a fost evaluata de Octagon
+  (dar gasita necorespunzatoare standardelor lor); de asemenea, printre contactele stabilite in 
+  aceasta perioada se numara Havas, Gathering of Developers, Game Active, Garage Developer si o 
+  serie de alti publisheri obscuri. 
+
+  Ne-oficial, proiectul PP s'a oprit in iulie 2000. Oficial, PP'ul a fost declarat mort in vara
+  2001.
+
+  De'a lungul acestui proiect am avut si o serie de colaborari off-site, in special cu Stefan
+  Giurgiu aka "Max the FireRaven" (3D art), cu Lucian Mares (2D art, scriitor) si cu Silviu Badea
+  (3D art), ulterior acestia devenind membri ai echipei Piron. Muzica versiunii alfa a fost realizata
+  de ThyVeils.
+  
+
+4. Planul proiectului
+
+  Jocul a fost impartit in doua parti: partea de interfata (interface) si partea de engine
+  (in-game). Acest lucru a permis dezvoltarea paralela a celor doua bucati, fara a fi 
+  nevoie de a interfera prea mult. Partea de interfata a fost dezvoltata de Karg in timp ce
+  partea in-game a fost dezvoltata de Tudor Girba. De asemenea, a fost nevoie de o serie
+  de editoare ce au fost dezvoltate on-the-fly: un editor de harti, un editor pentru 
+  unitati (soldati, vehicule), editor de sprite'uri si editor de tile'uri.
+
+  Grafica era impartita in 2 parti mari: grafica pentru Interfata si grafica pentru Jocul 
+  propriu-zis(ingame).
+  
+  Grafica pentru interfata presupunea realizarea backgroundurilor pentru diferitele ecrane 
+  ale interfetei si a controalelor de interfata. 
+  
+  Grafica pentru joc presupunea sprite-uri pentru peisaj, personaje, animatii si efecte(gen 
+  explozii, apa, foc, etc.).
+  
+  In general procesul de realizare al graficii 3D era urmatorul:
+    - realizarea modelului 3D in Cagliari Truespace (3 mai apoi ver.4.x)
+    - texturarea modelului in Newtek Ligtwave (5.x).
+    - retusharea sprite-ului obtinut in Adobe Photoshop (4.x si 5).
+    - optional: realizarea animatiilor in Lightwave
+
+  Partea de programare a fost realizata in C++ folosind Borland Builder, fiind folosite cam toate 
+  versiunile(1, 3, 4) precum si Together 4. Pentru 3D a fost folosit Caligari Truspace 2, 3 si 
+  4(modelare) si Lightwave 5 si 5.5 (rendering), iar pentru 2D a fost folosit Adobe Photoshop. 
+  Ca versioning system a fost ales SourceSafe. Au fost folosite si o serie de tool'uri, de 
+  genul Darktree, Premiere si Dreamweaver pentru diverse activitati specifice.
+
+  Ca sa va faceti o idee asupra dimenisiunii proiectului, acesta continea peste 50.000 de linii
+  de cod, 300 de clase, 600 de fisiere. La grafica au existat cam 1Gb de informatii cuprinzind 25 
+  de modele de vehicule, 7 modele de soldati, peste 70 de cladiri, scene 3D pentru background'uri
+  in interfata, scene 3D pentru interfata in-game, 2D&3D concept artwork'uri. Universul a fost pus
+  "pe hirtie" si se poate lauda cu 75 de pagini cu texte legate de istorie, politica, 
+  profiluri de personalitati istorice, educatie militara si specificatii de echipament.
+
+5. Ce a mers bine
+
+  Entuziasmul. Categoric, a fost lucrul cel mai important al acestui proiect si care practic l'a
+  mentinut in viata suficient destul de mult timp. Cu mare entuziasm am descoperit tainele 3D'ului
+  si tot cu mare entuziasm am descoperit minunile designului OO. A fost unul din ingredientele care
+  au suplinit lipsa conditiilor financiare.
+
+  Creativitate. Dezvoltind un joc, a fost un element esential in realizarea universului, a graficii si,
+  chiar daca pare absurd pentru designul engine'ului. Bineinteles, nu nici unul dintre noi
+  nu este si nu a fost geniu in domeniul pe care a lucrat, insa rezultatele au fost 
+  incintatoare.     
+
+  Relatiile de prietenie. Inainte de a fi colegi de munca (co-lucratori :), relatiile au fost de 
+  prietenie, iar realizarea unuia era realizarea tuturor. Acest lucru a ajutat enorm pentru ca 
+  proiectul sa se tina pe picioare pe linga entuziasm.
+
+  Sediul. Pentru o echipa independenta, un sediu este extraordinar pentru ca scade timpii
+  necesari comunicatiei. Am avut norocul de a primi un sediu fara a avea obligatii si 
+  periada in care l'am avut a fost cea mai productiva.
+
+  Code design. Am acordat o mare atentie procesului de design al engine'ului, aceasta
+  insemnind o atitudine de genul "think twice, write code once". De'a lungul proiectului
+  fiecare programator din echipa a asimilat o cantitate impresionanta de cunostinte legate
+  de programare si design object-oriented, iar aceasta s'a reflectat in calitatea excelenta
+  a designului si stabilitatea codului scris.
+
+  Dorinta de perfectiune. 3 versiuni de engine, 2 versiuni de interfata, obiecte 3D refacute
+  de doua ori, aceste lucruri spun mult despre standardul inalt pe care am incercat sa il
+  urmam de'a lungul proiectului.
+          
+  Eficacitatea. Desi perioadele de lucru efectiv au fost relativ putine, cantitatea de 
+  informatii generate a fost foarte mare in raport cu numarul mic de oameni care au 
+  participat la proiect.
+
+  Stabilitatea specificatiilor. Desi nu am avut un document de design, specificatiile
+  proiectului au ramas la fel de'a lungul perioadei de development. 
+
+  Muzica. Gasirea unui muzician talentat este un lucru dificil; sa mai si gasesti 
+  pe cineva care e dispus sa produca fara bani, iata un scenariu demn de Misiune Imposibila.
+  Spre norocul nostru, ThyVeils a fost exact omul potrivit cu muzica potrivita.
+
+
+6. Ce a mers rau
+
+   Lipsa unui plan. Din cauza modului de dezvoltare initial, deadline'urile au fost 
+   mai mult generice, fara sa contina detalii asupra a ceea ce se dorea cu exactitate
+   facut pina la o anumita data. In plus, tot din cauza conditiilor, deadline'urile
+   nu au fost respectate. Din acest motiv, entuziasmul (si in cele din urma moralul)
+   a scazut ("failing to plan is a plan to fail"?)
+
+   Lipsa unei motivatii financiare. Esecul de a gasi o sursa de finantare si'a pus
+   in cele din urma amprenta asupra mersului proiectului. Entuziasmul dureaza, dar
+   nu o vesnicie.
+
+   Munca in hopuri. In cei 2 ani si jumatate in care proiectul a fost in devoltare,
+   mai putin de jumatate din timp a fost munca. Aceasta este o consecinta a mai multor 
+   factori (lipsa de sediu, de motivatie finaciara sau alta).
+
+   Impartirea proiectului. Acest lucru a dus la o serie de ne-conformitati intre surse si
+   la aparitia de surse duplicate pentru ca o mare parte din timp nu am avut acces la un
+   versioning system (SourceSafe/CVS) iar o alta mare parte nu am avut retea. 
+
+   Experienta inexistenta. Nici unul dintre membrii echipei nu avea experienta intr'un
+   proiect software de anvergura, atit pe partea de management cit si pe partea de 
+   analiza si design existind goluri imense (goluri, care, de altfel, nu au fost deloc
+   umplute de'a lungul duratei proiectului).
+
+   Dotare slaba. Chiar daca proiectul nu a avut nevoie de hardware pretentios (putind 
+   initial rula pe un k6-2 333, 64Mb RAM si 4Mb video ram), munca la el in special pe
+   partea de 3D a necesitat eforturi si rabdare: 100.000 de poligoane pe un k6-2 e totusi
+   mult prea mult de suportat.  
+
+   Lipsa de Internet. Din acesta cauza nu am putut accesa documentatie, tutoriale, 
+   plug-inuri sau aplicatii care ar fi usurat anumite sarcini. Aceasta a dus la 
+   cresterea timpului alocat "sapatului". In plus, lucrul cu cei off-site a fost
+   foarte mult ingreunat - nu se puteau transfera informatii in timp util, nu se 
+   putea verifica munca lor pentru a oferi feedback.      
+
+   Lipsa analizei si a procesului. Ce se da si ce se cere. Am fost complet in ceata in 
+   ceea ce priveste cei doi termeni, acest lucru ducind la crearea celor 3 versiuni 
+   de engine si doua de interfata (in cele din urma a iesit perfect, dar printr'un
+   proces iterativ ce a costat timp).
+
+   Lipsa sedintelor. Eram independenti. Nu agream modelul corporationist. Nu am tinut
+   decit 3 sau 4 sedinte, si asta nu pentru ca nu am avut posiblitatea, dar am avut
+   intotdeauna impresia ca totul e clar si ca nu se cade sa pierdem timp cu prostii.
+   Privind retrospectiv, acest lucru ar fi ajutat probabil la o informare corecta asupra
+   mersului proiectului.
+
+   Mersul proiectului - neclar. O consecinta a lipsei planificarii si a lipsei sedintelor
+   de informare a fost ca in general nu se stia evolutia proiectului. Cu foarte putine
+   ocazii am avut 
+
+   Lipsa unui document de design. Considerind ca echipa este mica, am considerat ne-necesara
+   scrierea unui document de design (in 1998 chiar nu aveam o idee foarte clara asupra a
+   ceea ce ar fi trebuit sa contina). Am considerat util ca eu (Karg) sa fiu o baza de 
+   date ambulanta, un fel de "document de design viu". N'as putea spune ca a fost bine sau
+   rau, dar as inclina sa spun ca a avut o influenta negativa (cumva a suspendat proiectul
+   in neanantul dezorganizarii).
+
+   Desincronizare intre "departamentul" grafica si "departamentul" programare. In primul rand 
+   lipsa oricarei organizari a dus la o desincronizare intre grafica si programare astfel ca 
+   ceea ce se facea la grafica nu putea fi testat in joc deabia dupa un timp, o buna parte 
+   din grafica pentru PP nefiind testata nici in ziua de azi. 
+
+   Lipsa de graficieni 2D. Lipsa unor graficieni manuali care sa deseneze conceptual 
+   modelele s'a simtit foarte mult, o mare parte din timp pierzandu-se cu finisarea ideei 
+   de cum trebuie sa arate un lucru.
+
+   Imensitatea proiectului. Crearea simultana a unui univers si a unui joc a fost o 
+   activitate coplesitoare. Chiar si jocul a fost mult pompat in ceea ce priveste 
+   capabilitatile (ar fi trebui sa aiba 12 peisaje distincte pentru diverse tipuri 
+   de planete - mult prea mult pentru un singur om). Engine'ul nu a fost exagerat,
+   dar cerintele(dorintele pe partea de grafica) au fost mult prea mari (realizabile,
+   dar nu in conditiile in care am lucrat). 
+
+   Supraestimarea capabilitatilor. Programmers are optimistic people. Brooks, "Mythical 
+   man month". Am crezut ca putem face tot, dar nu am reusit. In plus, ca manager
+   am tratat oamenii egal, raportindu'i la capabilitatile (si la timpul meu): daca eu
+   pot face atunci pot face si ei.
+
+   Intirzierea. Cu un alfa in anul 2000, cu engine 2D si fara prea multe elemente de game
+   play, nu este de mirare faptul ca versiunea publica nu a reusit sa impresioneze. In 
+   definitiv, nimeni nu te intreaba de conditiile pe care le'ai avut sa faci un lucru, ci
+   este doar interesat de lucrul in sine.
+
+   Lipsa PR. Atit in relatiile cu publisheri, cit si in deciziile legate de imaginea 
+   grupului (paginile de web de prezentare a jocului si cea de prezentare a grupului) 
+   s'a simtit lipsa unui cap rece. Informatiile au fost puse in pagina de web intr'un
+   mod imprastiat, dind o impresie de neterminat, de haos si stricind categoric imaginea.
+
+   
+7. Concluzii
+
+   Desi dus doar in stadiu de alfa, dar cu o gramada de lucru care nu a fost facut niciodata
+   public, proiectul PP a fost extrem de educativ ca experienta de producere software. 
+
+   In urma sa au ramas un engine bine scris, facut public in regim opensource sub licenta
+   GPL la http://sf.net/projects/pptactical si un univers complex, gata oricind sa fie
+   folosit pentru un (alt) joc.
+   

@@ -1,0 +1,251 @@
+@import url("generic.css");
+@import url("navigation.css");
+@import url("listings.css");
+@import url("forms.css");
+@import url("pagination.css");
+@import url("tables.css");
+@import url("video_gallery.css");
+
+html,body{
+    height:100%;
+}
+
+body{
+    background:#000;
+    font:1.2em Arial,Helvetica,sans-serif;
+    color:#5f5d53;
+}
+
+a:link,a:visited{
+    color:#859f1d;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+#composite_bkg{
+    background:#00045F url(../img/bkg_missiledefender_pngout.png) repeat-x bottom;
+    margin-bottom:0;
+    padding-bottom:0;
+    min-height:1000px;
+    height:auto!important;
+    height:100%;
+}
+
+#layout{
+    background:url(../img/bkg_composite_missiles.png) repeat-x top;
+    margin-bottom:0;
+    padding-bottom:0;
+    min-height:100%;
+    height:auto!important;
+    height:100%;
+}
+
+#wrapper{
+    width:980px;
+    margin:0 auto;
+}
+
+.container{
+    width:980px;
+    margin:0 auto;
+}
+
+#adcontainer_main
+{
+    background:url(../img/bkg_alpha033.png) repeat;
+    background:rgba(0,0,0,0.33);
+    text-align:center;
+    width:980px;
+    margin:0 auto;
+	margin-bottom:10px;
+}
+
+#adcontainer_main a
+{
+    background:none;
+    color:inherit;
+}
+#adcontainer_main a:hover
+{
+    background:none;
+    color:inherit;
+}
+#adcontainer_main a:visited
+{
+    background:none;
+    color:inherit;
+}
+
+#adcontainer_play
+{
+    #background:url(../img/bkg_alpha033.png) repeat;
+    #background:rgba(0,0,0,0.33);
+    text-align:left;
+    width:336px;
+    margin:0 auto;
+	float: right;
+}
+
+#adcontainer_play a
+{
+    background:none;
+	color:inherit;
+}
+#adcontainer_play a:hover
+{
+    background:none;
+    color:inherit;
+}
+#adcontainer_play a:visited
+{
+    background:none;
+    color:inherit;
+}
+
+#adcontainer_play h3
+{
+    text-align:left;
+}
+
+
+#header{
+    background:url(../img/bkg_alpha033.png) repeat;
+    background:rgba(0,0,0,0.33);
+    height:72px;
+	padding-top:10px;
+}
+
+#header .logo{
+    background:url(../img/piron_logo.png) no-repeat;
+    display:block;
+    width:119px;
+    height:77px;
+    text-indent:-5000px;
+    overflow:hidden;
+    text-align:left;
+    position:relative;
+    top:-8px;
+}
+
+#header .logo a{
+    display:block;
+    height:100%;
+    color:#fff;
+}
+
+#header .logo a:hover{
+    text-decoration:none;
+}
+
+.content{
+    float:left;
+    width:980px;
+    margin:0 30px 0 0;
+}
+
+#footer{
+    background:url(../img/bkg_alpha033.png) repeat;
+    background:rgba(0,0,0,0.33);
+    font-size:1em;
+    color:#fffcda;
+    line-height:1.5em;
+    padding-top:5px;
+    margin-top:25px;
+    margin-bottom:0;
+}
+
+#footer li{
+    display:inline;
+    margin-right:3px;
+}
+
+#footer img{
+    float:left;
+    margin-right:10px;
+}
+
+#footer .fxcontainer{
+    float:left;
+    margin-right:10px;
+}
+
+#footer a{
+    color:#fffcda;
+    background:#FF2523;
+    padding-right:5px;
+}
+
+#footer a:hover{
+    color:#fffcda;
+    background:#000;
+    text-decoration:none;
+}
+
+#footer small{
+    color:#A6A6A6;
+    margin:10px 0 0 0;
+    display:block;
+}
+
+.content h2{
+    width:300px;
+    color:#fffcda;
+    font-size:20px;
+    font-weight:normal;
+    font-style:italic;
+    letter-spacing:-.03em;
+    padding-top:4px;
+    background:url(../img/bkg_alpha033.png) repeat;
+    background:rgba(0,0,0,0.33);
+}
+
+.content h2 span{
+    color:#2e2c23;
+}
+
+.content h3{
+    width:200px;
+    color:#fffcda;
+    font-size:16px;
+    font-weight:bold;
+    font-style:italic;
+    letter-spacing:-.03em;
+    background:url(../img/bkg_alpha033.png) repeat;
+    background:rgba(0,0,0,0.33);
+    padding:0;
+    margin:0 0 5px 0;
+    border:0;
+}
+
+.content p{
+    text-align:left;
+}
+
+.content ul li{
+    padding-left:1.2em;
+}
+
+.content ol li{
+    margin-bottom:1em;
+}
+
+#wrapper pre,#wrapper code{
+    font-family:Monaco,Verdana,Sans-serif;
+    font-size:11px;
+    background-color:#0f0f0f;
+    border:1px solid #2f2f2f;
+    display:block;
+    margin:0 0 2em 0;
+    padding:12px 10px 12px 10px;
+}
+
+.hidden{
+    display:none;
+}
+
+.blockUI.blockMsg{
+    font-size:150%;
+}
+

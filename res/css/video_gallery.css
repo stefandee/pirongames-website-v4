@@ -1,0 +1,131 @@
+
+/*
+  root element for the scrollable.
+  when scrolling occurs this element stays still.
+  */
+.scrollable {
+
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width: 555px;
+    height:120px;
+
+    /* custom decorations */
+    /*border:1px solid #ccc;*/
+    /*background:url(/media/img/gradient/h300.png) repeat-x;*/
+
+	/* this makes it possible to add next button beside scrollable */
+    float:left;
+}
+
+/*
+   root element for scrollable items. Must be absolutely positioned
+   and it should have a extremely large width to accomodate scrollable
+   items.  it's enough that you set the width and height for the root
+   element and not for this element.
+*/
+.scrollable .items {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+    clear:both;
+}
+
+.items div {
+    float:left;
+    width:600px;
+}
+
+/* single scrollable item */
+.scrollable img {
+    float:left;
+    /*margin:20px 5px 20px 21px;*/
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+    background-color:#fff;
+    padding:2px;
+    border:1px solid #ccc;
+    width:120px;
+    height:90px;
+
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+/* active item */
+.scrollable .active {
+    border:2px solid #e20;
+    position:relative;
+    cursor:default;
+}
+
+
+
+/* prev, next, prevPage and nextPage buttons */
+#test a.browse {
+    background:url(../img/hori_large.png) no-repeat;
+    display:block;
+    width:30px;
+    height:30px;
+    float:left;
+    margin:40px 10px;
+    cursor:pointer;
+    font-size:1px;
+	padding:0;
+}
+
+/* right */
+#test a.right { background-position: 0 -30px; clear:right; margin-right: 0px;}
+#test a.right:hover { background-position:-30px -30px; }
+#test a.right:active { background-position:-60px -30px; }
+
+
+/* left */
+#test a.left { margin-left: 0px; }
+#test a.left:hover  { background-position:-30px 0; }
+#test a.left:active { background-position:-60px 0; }
+
+/* up and down */
+a.up, a.down  {
+    background:url(../img/vert_large.png) no-repeat;
+    float: none;
+    margin: 10px 50px;
+}
+
+/* up */
+a.up:hover { background-position:-30px 0; }
+a.up:active { background-position:-60px 0; }
+
+/* down */
+a.down { background-position: 0 -30px; }
+a.down:hover { background-position:-30px -30px; }
+a.down:active { background-position:-60px -30px; }
+
+
+/* disabled navigational button */
+#test a.disabled {
+    visibility:hidden !important;
+}
+
+#player_wrap {
+    /* dimensions */
+    width:700px;
+    padding:15px 0;
+
+    /* centered */
+    text-align:center;
+	margin:0 auto;
+}
+
+/* tooltip styling. by default the element to be styled is .tooltip  */
+.tooltip {
+	display:none;
+	background:transparent url(../img/black_arrow.png);
+	font-size:12px;
+	height:70px;
+	width:160px;
+	padding:25px;
+	color:#eee;
+}  

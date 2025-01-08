@@ -1,0 +1,40 @@
+* html .content textarea,* html .content input{
+    padding:0;
+}
+
+.content input[type='submit'],.content input[type='button'],button,#wrapper .button{
+    padding:0;
+}
+
+.content legend+*{
+    margin-top:0;
+}
+
+a abbr,a acronym{
+    text-decoration:underline;
+}
+
+html{
+    scrollbar-face-color:#26241C;
+    scrollbar-highlight-color:#26241C;
+    scrollbar-3dlight-color:#807E76;
+    scrollbar-darkshadow-color:#000;
+    scrollbar-shadow-color:#26241C;
+    scrollbar-arrow-color:#807E76;
+    scrollbar-track-color:#44423A;
+}
+
+button,#wrapper .button{
+    padding:.1em 1em;
+    font-size:1.1em;
+}
+
+#wrapper .readonly{
+    filter:alpha(opacity=80);
+    color:#666;
+}
+
+.pagination{
+    padding-top:10px;
+}
+
