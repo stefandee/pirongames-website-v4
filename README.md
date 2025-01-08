@@ -2,7 +2,7 @@
 
 This is the [Piron Games](https://www.pirongames.com) arcade, which was live between 2010-2018. Showcases all the Flash games developed by myself, as well as games I played back in the day.
 
-It's based on the CodeIgniter framework and Linkster, adding virtual game arcade related features. It also implements a leaderboard system (available inside games), which was working in tandem with the (Haxe Flash GameLib2)[https://github.com/stefandee/hxgamelib2]
+It's based on the CodeIgniter framework and Linkster, adding virtual game arcade related features. It also implements a leaderboard system (available inside games), which was working in tandem with the [Piron Games Haxe/Flash GameLib2](https://github.com/stefandee/hxgamelib2)
 
 The arcade lacks an admin feature, to make it easy to upload/set up new games - didn't find the time to implement it, given that I wasn't uploading guest content regularly. Instead, this process was done by editing the tables directly with phpMyAdmin.
 
