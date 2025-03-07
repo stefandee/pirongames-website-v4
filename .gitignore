@@ -2,3 +2,5 @@
 # Database settings
 #//////////////////////////
 application/config/database.php
+
+.uploaded-games

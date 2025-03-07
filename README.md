@@ -8,6 +8,8 @@ The arcade lacks an admin feature, to make it easy to upload/set up new games - 
 
 Web development is/was not my area of expertise, so this whole thing is experimental bordering jerry-rigged. It did its job though, until I finally sun-set and replaced it with a fully Wordpress solution in 2018.
 
+Score submission code doesn't blacklist improper submitted names and is down-right vulnerable to SQL injection (submit_stat function in [gamelist_model.php](application/models/gamelist_model.php))
+
 Also included are PSDs of various concepts I envisioned for the site, until I settled to the retro/8-bit theme. Was planning to animate the "Missile Command" inspired background or even turn it into a minigame, never got around to do it though.
 
 ## Requirements
@@ -25,9 +27,7 @@ $db['default']['password'] = "password";
 $db['default']['database'] = "database";
 ```
 
-Some tables need to be created in the database: arcade_games, arcade_genres, arcade_tags, arcade_games_genres, arcade_games_tags, arcade_developers, arcade_games_devs, arcade_wt, arcade_games_wt, arcade_leaderboard, arcade_stats, ip2nationcountries, ip2nation
-
-Unfortunately, I don't have the tables schema anymore (although should be easy to guess from the source code)
+A table dump .sql file made cca 2018 is available [here](.database/piron-games-arcade-db-v4.sql). Import it into the database filled above.
 
 ## Screenshots
 
