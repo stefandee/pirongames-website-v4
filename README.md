@@ -18,7 +18,7 @@ PHP 4.3.2 and MySql (might work on newer versions)
 
 ## Installation
 
-Rename [database _template.php](application/config/database _template.php) to database.php and fill in the configuration:
+Rename [database _template.php](application/config/database_template.php) to database.php and fill in the configuration:
 
 ```sql
 $db['default']['hostname'] = "hostname";
